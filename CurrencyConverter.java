@@ -16,7 +16,7 @@ public class CurrencyConverter extends JFrame {
     private JLabel fromFlag, toFlag, bgImageLabel;
     private ImageIcon fromIcon, toIcon;
 
-    private static final String API_KEY = "19ba3a51a4c4bc5b623b6430";
+    private static final String API_KEY = "APIKEY"; //Give your own api-key in place of "APIKEY"
     private static final String API_URL = "https://v6.exchangerate-api.com/v6/";
     private static final String[] CURRENCIES = {
             "USD", "EUR", "JPY", "GBP", "AUD", "CAD", "CHF", "CNY", "SEK", "NZD",
